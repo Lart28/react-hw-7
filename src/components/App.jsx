@@ -15,6 +15,8 @@ export default function App() {
   useEffect(() => {
     dispatch(fetchContacts())
   }, [dispatch])
+
+  console.log('hello');
   
   return (
       <>
